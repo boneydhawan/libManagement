@@ -13,7 +13,7 @@
 			<property name="javax.persistence.jdbc.password" value="ZPBa8ZuWjks9ewze1kn" />
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLInnoDBDialect" />
 			<property name="hibernate.hbm2ddl.auto" value="update" />
-			<property name="hibernate.id.new_generator_mappings" value="false"></property
+		<property name="hibernate.id.new_generator_mappings" value="false"></property>
 
         </properties>
     </persistence-unit>
