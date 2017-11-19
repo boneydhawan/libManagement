@@ -18,4 +18,4 @@ libraryDependencies ++= Seq(
   "javax.mail" % "mail" % "1.4.3",
   "javax.activation" % "activation" % "1.1"
 )
-
+resolvers += Resolver.url("Typesafe Ivy releases", url("https://repo.typesafe.com/typesafe/ivy-releases"))(Resolver.ivyStylePatterns)
