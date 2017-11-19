@@ -19,3 +19,5 @@ libraryDependencies ++= Seq(
   "javax.activation" % "activation" % "1.1"
 )
 resolvers += Resolver.url("Typesafe Ivy releases", url("https://repo.typesafe.com/typesafe/ivy-releases"))(Resolver.ivyStylePatterns)
+fork in run := false
+fork in run := true 
