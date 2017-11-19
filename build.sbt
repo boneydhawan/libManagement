@@ -19,8 +19,3 @@ libraryDependencies ++= Seq(
   "javax.activation" % "activation" % "1.1"
 )
 
-
-fork in run := false
-
-
-fork in run := true
